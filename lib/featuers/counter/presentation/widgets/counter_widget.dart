@@ -23,7 +23,6 @@ class _CounterWidgetState extends State<CounterWidget> {
         listener: (context, state) {
         },
         builder: (context, state) {
-
           return Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
