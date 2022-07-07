@@ -3,7 +3,7 @@ import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../core/componat.dart';
-import '../login/presentation/login_screen/screen_login.dart';
+import '../login/presentation/pages/screen_login.dart';
 import '../register_screen/ragister_screen.dart';
 
 

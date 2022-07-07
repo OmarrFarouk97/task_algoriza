@@ -1,7 +1,6 @@
 import 'package:country_picker/country_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:new_task_algoriza/featuers/counter/presentation/pages/counter_page.dart';
 
 import 'featuers/on_boarding/on_boarding_screen.dart';
 
@@ -97,7 +96,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.teal,
         ),
-        home: CounterPage(),
+        home: OnBoradingScreen(),
       ),
     );
   }

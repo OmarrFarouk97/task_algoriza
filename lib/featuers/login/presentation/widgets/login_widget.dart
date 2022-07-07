@@ -5,12 +5,10 @@ import '../../../../core/componat.dart';
 import '../../../../core/unit/widgets/my_buttom.dart';
 import '../../../register_screen/ragister_screen.dart';
 
-
-class LoginScreen extends StatelessWidget {
+class LoginWidget extends StatelessWidget {
   final formKey = GlobalKey<FormState>();
   var phoneController = TextEditingController();
 
-  LoginScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +47,7 @@ class LoginScreen extends StatelessWidget {
                     const Text(
                       'Sign in',
                       style:
-                          TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+                      TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
                     ),
                     const Spacer(),
                     const Text(
